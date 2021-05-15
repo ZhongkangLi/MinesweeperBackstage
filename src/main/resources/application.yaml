@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://173.82.202.76:3306/minesweeper
+    username: root
+    password: Heiseyoumo0924!
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true

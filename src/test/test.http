@@ -1,0 +1,36 @@
+### Send POST request with json body
+POST http://localhost:8080/save
+Content-Type: application/json
+
+{
+  "ip": "localhost",
+  "mine_data": "1111",
+  "mine_flag": "0000",
+  "haveDigged": "1100",
+  "time": 111,
+  "remaingMines": 30
+}
+
+###
+### Send POST request with body as parameters
+POST http://localhost:8080/save
+Content-Type: application/x-www-form-urlencoded
+
+ip=localhost&mine_data=1111&mine_flag=0000&haveDigged=1100&time=111&remaingMines=30
+
+###
+### Send GET request with body as parameters
+GET http://localhost:8080/getTop
+Content-Type: application/x-www-form-urlencoded
+
+
+###
+
+###
+### Send GET request with body as parameters
+POST http://localhost:8080/uploadScore
+Content-Type: application/x-www-form-urlencoded
+
+user_ip=localhost&score=960
+
+###
